@@ -5,7 +5,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.7+-ff69b4?style=for-the-badge&logo=python)
 ![Status](https://img.shields.io/badge/status-BEAST_MODE-red?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-00ff00?style=for-the-badge)
+![License](https://img.shields.io/badge/license-GPL--3.0-00ff00?style=for-the-badge)
 
 ```ascii
     🌊 DEEP WEB CRAWLER 🌊
@@ -16,143 +16,53 @@
    ╚════════════════════════╝
 ```
 
-## 🚀 Kenapa WhaleCrusher?
+## 🚀 Why WhaleCrusher?
 
-| Feature | Status | Power Level |
-|---------|---------|-------------|
-| Multi-Threading | ✅ | 🔥🔥🔥🔥🔥 |
-| Parameter Mining | ✅ | 🔥🔥🔥🔥🔥 |
-| Stealth Crawling | ✅ | 🔥🔥🔥🔥⚡ |
-| Smart Fuzzing | ✅ | 🔥🔥🔥⚡⚡ |
-| Real-time Stats | ✅ | 🔥🔥🔥🔥⚡ |
+| Info Tools | |
+|---------|-------------|
+| Name | WhaleCrusher |
+| Publish | Mon, 15 Sep 2025 |
+| Developer | REYHAN6610 |
+| Language | Python |
+| License | GPL 3.0 |
 
-## ⚡ Quick Start (60 Detik!)
+## ⚡ Quick Start (60 Seconds!)
 
 ```bash
-# 1. Clone the beast
-git clone https://github.com/REYHAN6610/WhaleCrusher.git
+git clone https://github.com/REYHAN6610/WhaleCrusher  
+pip install -r requirements.txt
 
-# 2. Feed it dependencies  
-pip install requests beautifulsoup4 fake-useragent colorama
-
-# 3. Release the kraken!
-python whalecrush.py
+python bot.py
 ```
 
-## 🎯 Magic Features
+## 🎯 The Features
 
 ### 🔥 **Beast Mode Crawling**
-- **8 Threads Parallel** - Crawl dengan kecepatan cahaya
-- **Smart URL Extraction** - Temukan URL tersembunyi di JavaScript
+- **8 Threads Parallel** - Crawl with lightning speed
+- **Smart URL Extraction** - Find hidden URLs in JavaScript
 - **Random User-Agent** - Ninja mode activated
 
 ### 🎮 **Parameter Hunter**
-- **Auto Form Detection** - Ekstrak parameter dari form HTML
-- **25+ Common Parameters** - Database parameter populer (id, page, admin, dll)
-- **POST/GET Analysis** - Analisis method dan payload
+- **Auto Form Detection** - Extract parameters from HTML forms
+- **25+ Common Parameters** - Popular parameter database (id, page, admin, etc.)
+- **POST/GET Analysis** - Method and payload analysis
 
 ### 🕵️ **Stealth Operations**
 - **100+ Fuzzing Targets** - admin.php, config.php, .env, backup files
 - **SSL Bypass** - No certificate drama
 - **Anti-Detection** - Randomized headers & timing
 
-### 🎨 **Eye Candy Interface**
-- **Gradient ASCII Art** - Terminal yang instagramable
-- **Real-time Progress** - Live stats seperti game RPG
-- **Color-coded Results** - Green = success, Red = error
 
-## 🎮 Cara Main
+## 🎮 Screenshots
 
-### Level 1: Basic Attack
-```bash
-python whalecrush.py
-# Input: https://target.com
-# Sit back and watch the magic ✨
-```
+![Demo GIF](https://files.catbox.moe/8taidv.gif)
 
-### Level 2: Menu Powers
-```
-[s] 💾 Save results (Export ke file)
-[o] 📊 Show URL table (Lihat tangkapan)  
-[p] 🎯 Crawl parameters (Test parameters)
-[c] 🔄 Back to hunt (Target baru)
-[x] ❌ Exit (Keluar dengan gaya)
-```
-
-### Level 3: Pro Configuration
-```python
-# Edit untuk power user:
-max_threads=16     # More threads = more speed
-timeout=5          # Patient crawling
-max_depth=3        # Go deeper into the rabbit hole
-```
-
-## 📸 What You'll See
-
-### Terminal yang Hidup:
-```
-╭────────────────────╮
-│-> Minning To: https://target.com
-│-> Local Network Connection
-│-> 192.168.1.100 (Indonesia) 🇮🇩
-╰────────────────────╯
-
-✅ https://target.com/admin.php 200
-✅ https://target.com/login.php 200  
-✅ https://target.com/config.php 403
-```
-
-### Stats seperti Game:
-```
-🎯 Target: https://example.com
-📊 Total URLs: 47
-✅ Valid URLs: 32
-🔍 Parameters: 15 URLs with parameters
-⏱️ Time: 12.34 seconds
-```
-
-## 🛡️ Installation Troubleshoot
-
-### Windows Problems?
-```bash
-# Install with admin privileges
-pip install --user requests beautifulsoup4 fake-useragent colorama
-```
-
-### Linux/Mac Issues?
-```bash
-# Use python3 explicitly
-python3 -m pip install -r requirements.txt
-```
-
-### Still Broken?
-```bash
-# Nuclear option - virtual environment
-python -m venv whale_env
-source whale_env/bin/activate  # Linux/Mac
-whale_env\Scripts\activate     # Windows
-pip install -r requirements.txt
-```
-
-## 🎪 Pro Tips & Tricks
-
-### Speed Demon Mode:
-```python
-# Modify dalam script:
-max_threads=20     # Go wild (careful with target server!)
-timeout=1          # Lightning fast
-```
-
-### Stealth Ninja Mode:
-```python
-# Add custom delays:
-time.sleep(random.uniform(0.5, 2.0))  # Human-like timing
-```
+![Screenshot](https://files.catbox.moe/821vnv.jpg)
 
 ### Target Specific:
-- **WordPress**: Focus pada wp-admin, wp-config.php
-- **PHP Apps**: Prioritas admin.php, config.php, login.php  
-- **APIs**: Cari endpoint /api/, /v1/, swagger.json
+- **WordPress**: Focus on wp-admin, wp-config.php
+- **PHP Apps**: Priority on admin.php, config.php, login.php  
+- **APIs**: Search for /api/, /v1/, swagger.json endpoints
 
 ## 🎭 Output Formats
 
@@ -174,26 +84,11 @@ domain_mining_results_20241215_143022.txt
 
 **Educational Purpose Only!** 🎓
 
-- Hanya gunakan pada website yang kamu miliki
-- Respect robots.txt dan terms of service
-- Jangan overload server target
-- Gunakan dengan bijak dan etis
+- Only use on websites you own
+- Respect robots.txt and terms of service
+- Don't overload target servers
+- Use wisely and ethically
 
-## 🤝 Contributing
-
-Found a bug? Want to add features? 
-
-1. Fork repository ini
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
-## 📞 Support
-
-- 🐛 Issues: [GitHub Issues](https://github.com/REYHAN6610/WhaleCrusher/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/REYHAN6610/WhaleCrusher/discussions)
-- ⭐ Star repo jika berguna!
 
 ---
 
